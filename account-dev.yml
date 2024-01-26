@@ -16,28 +16,29 @@ management:
   endpoints:
     web:
       exposure:
-        include: *
-    endpoint:
-      shutdown:
-       enabled: true
-    info:
-      env:
-        enabled: true
-enpoints:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+  info:
+    env:
+      enabled: true
+
+endpoints:
   shutdown:
     enabled: true
-    
+
 eureka:
   instance:
     preferIpAddress: true
   client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
 info:
   app:
-   name: account
-   description: Account Microservice
-   version: 1.0.0
+    name: "account"
+    description: "Eazy Bank Accounts Application"
+    version: "1.0.0"
