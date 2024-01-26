@@ -39,6 +39,6 @@ eureka:
 
 info:
   app:
-    name: accountsss
-    description: Accounts Application
+    name: account
+    description: Accounts MicroService
     version: 1.0.0
