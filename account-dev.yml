@@ -16,7 +16,10 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"  
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
   info:
     env:
       enabled: true
