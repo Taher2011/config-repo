@@ -19,4 +19,10 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:8761/eureka/    
+      defaultZone: http://localhost:8761/eureka/
+
+info:
+  app:
+   name: account
+   description: Account Microservice
+   version: 1.0.0
