@@ -20,7 +20,9 @@ management:
   endpoint:
     shutdown:
       enabled: true
-  
+  info:
+    env:
+      enabled: true
 
 endpoints:
   shutdown:
