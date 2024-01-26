@@ -39,6 +39,6 @@ eureka:
 
 info:
   app:
-    name: "account"
-    description: "Eazy Bank Accounts Application"
-    version: "1.0.0"
+    name: accountsss
+    description: Accounts Application
+    version: 1.0.0
