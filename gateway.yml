@@ -5,10 +5,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
-  endpoint:
-    gateway:
-      enabled: true
+        include: "*"  
   info:
     env:
       enabled: true
